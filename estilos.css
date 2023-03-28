@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("poster-gauss.jpg");
+}
+
+body div.micalculadora{
+    text-align: center;
+    justify-content: center;
+    width: 240px;
+    margin: 0 auto;
+    background: #a6b928;
+    border-radius: 20px;
+}
+
+div input[type='button'], button{
+    width: 40px;
+    height: 40px;
+    margin: 3px 0;
+}
+
+div input[type='text']{
+    height: 40px;
+    width: 200px;
+    background-color: #f2ebd5;
+    color: black;
+    padding: 12px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+div.resultado input, div.resultado button{
+    height: 40px;
+    width: 85px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+div.resultado button{
+    background-color: rgba(255, 0, 0, 0.589);
+    color: white;
+    border: 3px solid #a91225;
+}
+
+div.resultado input{
+    background-color: #ff73008a;
+    color: white;
+    border: 3px solid #ff7300;
+}
+
+#suma, #resta, #mult, #div, #porc{
+    background-color: #f0b904;
+    color: black;
+    border: 3px solid #ecdd0b;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#uno, #dos, #tres, #cuatro, #cinco, #seis, #siete, #ocho, #nueve, #cero, #decimal{
+    background-color: #80e4fd;
+    color: black;
+    font-size: large;
+    border: 3px solid #c90b2a;
+}
